@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+h1, .tagline {
+  text-align: center;
+  text-emp
+}
+
+.tagline{
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #F9F7F5;
+}
+
+.header-box{
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.elansing, .chicago{
+  <!-This is all placeholder except color. Padding isnt right. Need to host to live server ->
+  border-style: none;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.city-description{
+  font-size: 70%;
+  margin-left:25px;
+}
+
+.profiles{
+  width: 50px;
+  height: 50px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.profile-block{
+  border-top-style: solid;
+  border-top-color: #CF965B;
+  padding-top: 20px;
+}
