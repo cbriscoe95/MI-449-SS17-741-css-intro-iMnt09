@@ -1,15 +1,25 @@
 .container {
   margin: 0 auto;
   max-width: 500px;
+  margin-bottom: 70px;
 }
 
 h1, .tagline {
   text-align: center;
-  text-emp
+
+}
+
+h1{
+  margin-top: 25px;
+}
+
+h2{
+  margin-bottom: 15px;
 }
 
 .tagline{
   font-weight: bold;
+  margin-top: -2%;
 }
 
 body {
@@ -17,10 +27,13 @@ body {
   background-color: #F9F7F5;
 }
 
+/** 130px **/
 .header-box{
   background-color: #FFFFFF;
   margin-top: 20px;
   padding: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 .elansing, .chicago{
@@ -33,19 +46,28 @@ body {
 }
 
 .city-description{
-  font-size: 70%;
-  margin-left:25px;
+  font-size: 62.5%;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 .profiles{
   width: 50px;
   height: 50px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .profile-block{
   border-top-style: solid;
   border-top-color: #CF965B;
+  border-width: 2px;
   padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #CF965B;
 }
